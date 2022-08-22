@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\PatrimonioSenaiTaguatinga\\PatrimonioSenaiTaguatinga.csproj": {}
+    "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\PatrimonioSenaiTaguatinga.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\PatrimonioSenaiTaguatinga\\PatrimonioSenaiTaguatinga.csproj": {
+    "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\PatrimonioSenaiTaguatinga.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\PatrimonioSenaiTaguatinga\\PatrimonioSenaiTaguatinga.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\PatrimonioSenaiTaguatinga.csproj",
         "projectName": "PatrimonioSenaiTaguatinga",
-        "projectPath": "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\PatrimonioSenaiTaguatinga\\PatrimonioSenaiTaguatinga.csproj",
+        "projectPath": "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\PatrimonioSenaiTaguatinga.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\PatrimonioSenaiTaguatinga\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",

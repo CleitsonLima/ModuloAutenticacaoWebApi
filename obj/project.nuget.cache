@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JwCfXtN/KcrOYG7CPzP+Jvzjytpg2zdzA5wA4bIC4n+v47HtbBdUk6GbtVVSGST/j/bX8b395fZGkcb3nKd8Vw==",
+  "dgSpecHash": "Hhfe6H+BDxipwZZQ8abZZ3T5THYASs1FanPK035B4XtaJpsWwmxHbDJr/lN7GE5HHkuOy9T5kgM8XeP4TIl5tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\PatrimonioSenaiTaguatinga\\PatrimonioSenaiTaguatinga.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\Desktop\\cleitson\\ModuloAutenticacaoWebApi\\PatrimonioSenaiTaguatinga.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
