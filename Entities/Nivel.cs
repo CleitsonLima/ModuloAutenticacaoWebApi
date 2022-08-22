@@ -10,4 +10,6 @@ public class Nivel
     public int Id { get; set; }
 
     public string NomeNivel { get; set; }
+
+    
 }
