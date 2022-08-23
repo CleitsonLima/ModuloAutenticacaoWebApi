@@ -1,6 +1,7 @@
 namespace PatrimonioSenaiTaguatinga.Entities;
 
-public class Usuario{
+public class Usuario
+{
     public Usuario(string nome, string sobreNome, string login, string password, int idNivel)
     {
         Nome = nome;
@@ -22,7 +23,7 @@ public class Usuario{
 
     public int IdNivel { get; set; }
 
-    public Nivel Nivel { get; set; } =null!;
+    public Nivel Nivel { get; set; } = null!;
 
-   
+
 }

@@ -11,5 +11,5 @@ public class Nivel
 
     public string NomeNivel { get; set; }
 
-     public ICollection<Usuario> Usuarios { get; set; } =null!;
+    public ICollection<Usuario> Usuarios { get; set; } = null!;
 }
