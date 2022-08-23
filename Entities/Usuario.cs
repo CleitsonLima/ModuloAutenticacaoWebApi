@@ -24,5 +24,5 @@ public class Usuario{
 
     public Nivel Nivel { get; set; } =null!;
 
-    public ICollection<Nivel> Niveis { get; set; } =null!;
+   
 }

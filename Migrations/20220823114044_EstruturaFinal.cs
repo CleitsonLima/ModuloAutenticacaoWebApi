@@ -4,7 +4,7 @@
 
 namespace PatrimonioSenaiTaguatinga.Migrations
 {
-    public partial class EstruturaInicial : Migration
+    public partial class EstruturaFinal : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,8 +14,7 @@ namespace PatrimonioSenaiTaguatinga.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NomeNivel = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    UsuarioId = table.Column<int>(type: "int", nullable: true)
+                    NomeNivel = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -32,44 +31,27 @@ namespace PatrimonioSenaiTaguatinga.Migrations
                     SobreNome = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Login = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Password = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    IdNivel = table.Column<int>(type: "int", nullable: false),
-                    NivelId = table.Column<int>(type: "int", nullable: false)
+                    IdNivel = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Usuario", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Usuario_Nivel_NivelId",
-                        column: x => x.NivelId,
+                        name: "FK_Usuario_Nivel_IdNivel",
+                        column: x => x.IdNivel,
                         principalTable: "Nivel",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Nivel_UsuarioId",
-                table: "Nivel",
-                column: "UsuarioId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Usuario_NivelId",
+                name: "IX_Usuario_IdNivel",
                 table: "Usuario",
-                column: "NivelId");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Nivel_Usuario_UsuarioId",
-                table: "Nivel",
-                column: "UsuarioId",
-                principalTable: "Usuario",
-                principalColumn: "Id");
+                column: "IdNivel");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Nivel_Usuario_UsuarioId",
-                table: "Nivel");
-
             migrationBuilder.DropTable(
                 name: "Usuario");
 
